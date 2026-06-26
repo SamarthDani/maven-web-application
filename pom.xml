@@ -14,14 +14,16 @@
     <description>Spring MVC Web Application</description>
 
     <!-- ================= PROPERTIES ================= -->
-    <properties>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <spring.version>5.3.30</spring.version>
-        <maven.compiler.source>1.8</maven.compiler.source>
-        <maven.compiler.target>1.8</maven.compiler.target>
-        <junit.version>4.13.2</junit.version>
-        <mockito.version>4.11.0</mockito.version>
-    </properties>
+    <properties> 
+	<sonar.host.url>http://http://16.16.206.89:9000/</sonar.host>
+	<sonar.token>squ_85afe78a5e02f7f1fad80e57d6261887960ac29e</sonar.token>
+	<jdk.version>1.8</jdk.version>
+	<spring.version>5.1.2.RELEASE</spring.version>
+	<junit.version>4.11</junit.version>
+	<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+     </properties>
+
 
     <!-- ================= NEXUS DEPLOYMENT ================= -->
     <distributionManagement>
