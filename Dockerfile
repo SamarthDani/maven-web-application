@@ -19,7 +19,7 @@ RUN mvn clean package -DskipTests
 ############################
 # Stage 2 - Runtime
 ############################
-FROM tomcat:10.0-jdk11-temurin
+FROM tomcat:11.0-jdk11-temurin
 
 # Create non-root user
 RUN groupadd -r tomcatgrp && \
